@@ -1,4 +1,4 @@
-# 📦 Libraries
+
 library(tidyverse)
 library(readr)
 library(fastDummies)
@@ -7,7 +7,6 @@ library(Metrics)
 library(DataExplorer) 
 library(corrplot)     
 
-# 📁 Load datasets
 train_target     <- read_csv("~/Desktop/MDA Kaggle Comp. Data/Kaggle Competition/Train_Target.csv")
 train_predictor  <- read_csv("~/Desktop/MDA Kaggle Comp. Data/Kaggle Competition/Training_Data_Predictors.csv")
 test_predictor   <- read_csv("~/Desktop/MDA Kaggle Comp. Data/Kaggle Competition/Test_Data_Predictors.csv")
